@@ -5,7 +5,7 @@ The project contains an HTML file, a CSS file and a TypeScript file with some ba
 
 One advantage of this template is that **it allows debugging from Visual Studio** in Chrome, Edge and Internet Explorer.  Just create a project with the template, set a breakpoint in Visual Studio, and hit F5.  There is no need to install packages or bring up browser development tools.  This makes the template useful as an HTML plus TypeScript playground.
 
-The built template can be installed from Visual Studio Marketplace, or from within Visual Studio.  Search for 'TypeScript HTML Application Template' in the extensions dialog.
+The built template can be installed from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Rich-Newman.TypeScriptHTMLApplicationTemplate2022), or from within Visual Studio.  Search for 'TypeScript HTML Application Template' in the extensions dialog.
 
 In the Visual Studio New Project dialog the easiest way to find it is to filter by Language=TypeScript, and then it will appear at or towards the bottom of the list.  In both cases it appears as 'HTML Application with TypeScript'.
 
