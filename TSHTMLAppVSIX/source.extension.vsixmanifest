@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="91C48198-31C3-4215-BA4C-D4C68DAC1583" Version="1.0" Language="en-US" Publisher="Rich Newman" />
+        <DisplayName>TypeScript HTML Application Template</DisplayName>
+        <Description xml:space="preserve">Provides a project template for an application with an HTML file, a TypeScript file and a CSS file.</Description>
+        <MoreInfo>https://github.com/rich-newman/typescript-html-application-vs2022-template</MoreInfo>
+        <License>Resources\LICENSE</License>
+        <Icon>Resources\TSApplication.ico</Icon>
+        <Tags>TypeScript</Tags>
+    </Metadata>
+    <Installation>
+		<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
+			<ProductArchitecture>amd64</ProductArchitecture>
+		</InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.7.2,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\HTMLApplicationWithTypeScript.zip" />
+		<Asset Type="Microsoft.TypeScript.MSBuild.4.8.3.nupkg" d:Source="File" Path="Packages\Microsoft.TypeScript.MSBuild.4.8.3.nupkg" d:VsixSubPath="Packages" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
